@@ -1,0 +1,18 @@
+[book]
+title = "Go Mastery"
+authors = ["Noman"]
+description = "Personal learning notes on Go, Backend Development, and Computer Science fundamentals"
+language = "en"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "navy"
+git-repository-url = "https://github.com/nomancsediu/Go_Mastery"
+edit-url-template = "https://github.com/nomancsediu/Go_Mastery/edit/main/{path}"
+
+[output.html.print]
+enable = true
